@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <!-- link to font awesome -->
+    <script src="https://kit.fontawesome.com/c60a364630.js" crossorigin="anonymous"></script>
+    <!-- link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Bubblegum+Sans&display=swap" rel="stylesheet">
+    <!-- link to stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css"> 
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="./assets/Video by Marek from Pexels_Pexels Videos 2225332.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <h1><i class="fas fa-umbrella"></i> Need an Umbrella? <i class="fas fa-umbrella"></i></h1>
+        <h2>Let's check your chances of getting caught in the rain!</h2>
+        <h3>I’ve heard you are not allowed outside, but if you feel adventurous and promise to keep a 2-metre distance, who am I to stop you?</h3>
+        <label for="name">Which city do you wanna explore now?</label>
+        <input type="text" id="city" name="city">
+        <button class="submit">Submit</button>
+        <p class="find">Hmm..., not sure where you are? Then allow me to find your location myself!</p>
+        <button class="find-me">Find me!</button>
+        <!-- <img src="./assets/" alt="Umbrella"> -->
+        <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
+        <div class="to-add"></div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
